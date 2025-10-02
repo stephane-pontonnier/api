@@ -52,4 +52,5 @@ Voici les principales fonctionnalités offertes par cette API :
    - Optionnel : utiliser un profile dev ou prod
 3. (Facultatif) Générer la base de données si tu utilises des scripts SQL ou des migrations (Flyway, Liquibase, etc.)
 4. Compilation
+ ```bash
    mvn clean install

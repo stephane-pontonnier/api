@@ -47,3 +47,5 @@ Voici les principales fonctionnalités offertes par cette API :
    ```bash
    git clone https://github.com/stephane-pontonnier/api.git
    cd api
+2. Configuration de la base de données
+   - Modifier le fichier src/main/resources/application.yml ou application.properties avec tes paramètres (url, utilisateur, mot de passe)

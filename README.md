@@ -49,3 +49,7 @@ Voici les principales fonctionnalités offertes par cette API :
    cd api
 2. Configuration de la base de données
    - Modifier le fichier src/main/resources/application.yml ou application.properties avec tes paramètres (url, utilisateur, mot de passe)
+   - Optionnel : utiliser un profile dev ou prod
+3. (Facultatif) Générer la base de données si tu utilises des scripts SQL ou des migrations (Flyway, Liquibase, etc.)
+4. Compilation
+   mvn clean install
